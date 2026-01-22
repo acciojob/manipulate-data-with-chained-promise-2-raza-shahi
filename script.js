@@ -13,7 +13,7 @@ let promise =(data)=>{
 let promise2 = (data)=>{
 	return new Promise((resolve,reject)=>{
 		setTimeout(()=>{
-			resolve(data.map(item = item*2))
+			resolve(data.map(item => item*2))
 		},3000)
 	})
 }
