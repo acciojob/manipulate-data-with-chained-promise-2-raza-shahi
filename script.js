@@ -23,7 +23,7 @@ promise(arr).then((data)=>{
 	return promise2(data);
 }).then((data)=>{
 	myDiv.innerHTML = data;
-}).cathc((e)=>{
+}).catch((e)=>{
 	console.log(e);
 })
 
